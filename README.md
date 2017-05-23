@@ -1,7 +1,9 @@
 # ping
-/////////////////////////////////////////////////////////////////
+
+
 ///////////////////     PING TEST JQUERY & PHP 
-/////////////////////////////////////////////////////////////////
+
+
 
 If you are looking simple way to check which server is online this solution is for You. 
 All is based on Ajax request sending to php page.
@@ -17,9 +19,11 @@ setInterval(function(){
 checkIsOnline('192.168.1.90','a');
 }, 5000); <----- edit this value to ex. 1000 = (1s) , 2000 = (2s) 
 
-/////////////////////////////////////////////////////////////////
+
+
 ///////////////////     NEW IP / WWW ADDRESS TO CHECK
-/////////////////////////////////////////////////////////////////
+
+
 
 If You want to add new address like google.com to test ping just add new line inside (index.php) 
 setInterval(function(){ 
